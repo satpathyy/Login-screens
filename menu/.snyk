@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.19.0
+version: v1.25.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -10608,3 +10608,165 @@ patch:
         patched: '2021-06-28T14:33:18.074Z'
     - react-native > @react-native-community/cli > metro > metro-config > metro > metro-transform-worker > babel-preset-fbjs > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         patched: '2021-06-28T14:33:18.074Z'
+    - expo > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: expo > lodash
+    - expo > @expo/vector-icons > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: expo > @expo/vector-icons > lodash
+    - expo > @unimodules/react-native-adapter > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: expo > @unimodules/react-native-adapter > lodash
+    - expo > expo-sqlite > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: expo > expo-sqlite > lodash
+    - react-native > @react-native-community/cli > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-native > @react-native-community/cli > lodash
+    - react-native > @react-native-community/cli-platform-ios > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-native > @react-native-community/cli-platform-ios > lodash
+    - expo > expo-splash-screen > @expo/configure-splash-screen > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: expo > expo-splash-screen > @expo/configure-splash-screen > lodash
+    - snyk > snyk-docker-plugin > snyk-nodejs-lockfile-parser > @yarnpkg/core > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          snyk > snyk-docker-plugin > snyk-nodejs-lockfile-parser >
+          @yarnpkg/core > lodash
+    - expo > babel-preset-expo > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          expo > babel-preset-expo > @babel/preset-env >
+          @babel/plugin-transform-block-scoping > lodash
+    - expo > expo-splash-screen > @expo/configure-splash-screen > @react-native-community/cli-platform-android > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          expo > expo-splash-screen > @expo/configure-splash-screen >
+          @react-native-community/cli-platform-android > lodash
+    - expo > expo-splash-screen > @expo/configure-splash-screen > @react-native-community/cli-platform-ios > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          expo > expo-splash-screen > @expo/configure-splash-screen >
+          @react-native-community/cli-platform-ios > lodash
+    - react-native > @react-native-community/cli > @react-native-community/cli-hermes > @react-native-community/cli-platform-android > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-native > @react-native-community/cli >
+          @react-native-community/cli-hermes >
+          @react-native-community/cli-platform-android > lodash
+    - react-native > @react-native-community/cli > metro > @babel/core > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-native > @react-native-community/cli > metro > @babel/core >
+          lodash
+    - react-native > @react-native-community/cli > metro > async > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-native > @react-native-community/cli > metro > async > lodash
+    - react-native > @react-native-community/cli > @react-native-community/cli-hermes > @react-native-community/cli-platform-android > @react-native-community/cli-tools > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-native > @react-native-community/cli >
+          @react-native-community/cli-hermes >
+          @react-native-community/cli-platform-android >
+          @react-native-community/cli-tools > lodash
+    - expo > babel-preset-expo > @babel/preset-env > @babel/plugin-transform-sticky-regex > @babel/helper-regex > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          expo > babel-preset-expo > @babel/preset-env >
+          @babel/plugin-transform-sticky-regex > @babel/helper-regex > lodash
+    - react-native > @react-native-community/cli > metro > metro-react-native-babel-preset > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-native > @react-native-community/cli > metro >
+          metro-react-native-babel-preset >
+          @babel/plugin-transform-block-scoping > lodash
+    - expo > babel-preset-expo > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          expo > babel-preset-expo > @babel/preset-env >
+          @babel/plugin-transform-classes > @babel/helper-define-map > lodash
+    - expo > babel-preset-expo > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          expo > babel-preset-expo > @babel/preset-env >
+          @babel/plugin-transform-modules-amd > @babel/helper-module-transforms
+          > lodash
+    - expo > babel-preset-expo > @babel/preset-env > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          expo > babel-preset-expo > @babel/preset-env >
+          @babel/plugin-transform-modules-commonjs >
+          @babel/helper-module-transforms > lodash
+    - expo > expo-splash-screen > @expo/configure-splash-screen > @react-native-community/cli-platform-android > @react-native-community/cli-tools > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          expo > expo-splash-screen > @expo/configure-splash-screen >
+          @react-native-community/cli-platform-android >
+          @react-native-community/cli-tools > lodash
+    - react-native > @react-native-community/cli > metro > @babel/core > @babel/generator > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-native > @react-native-community/cli > metro > @babel/core >
+          @babel/generator > lodash
+    - react-native > @react-native-community/cli > metro > metro-babel-register > @babel/register > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-native > @react-native-community/cli > metro >
+          metro-babel-register > @babel/register > lodash
+    - react-native > @react-native-community/cli > metro > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-native > @react-native-community/cli > metro > @babel/core >
+          @babel/generator > @babel/types > lodash
+    - react-native > @react-native-community/cli > metro > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-native > @react-native-community/cli > metro > @babel/core >
+          @babel/helpers > @babel/traverse > lodash
+    - react-native > @react-native-community/cli > metro > metro-react-native-babel-preset > @babel/plugin-transform-sticky-regex > @babel/helper-regex > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-native > @react-native-community/cli > metro >
+          metro-react-native-babel-preset > @babel/plugin-transform-sticky-regex
+          > @babel/helper-regex > lodash
+    - react-native > @react-native-community/cli > metro > metro-react-native-babel-preset > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-native > @react-native-community/cli > metro >
+          metro-react-native-babel-preset > @babel/plugin-transform-classes >
+          @babel/helper-define-map > lodash
+    - react-native > @react-native-community/cli > metro > metro-babel-register > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash:
+        patched: '2023-07-16T02:57:23.756Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-native > @react-native-community/cli > metro >
+          metro-babel-register > @babel/plugin-transform-modules-commonjs >
+          @babel/helper-module-transforms > lodash
